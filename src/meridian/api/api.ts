@@ -57,6 +57,7 @@ export class Api {
 
     constructor() {
         this.baseUrl = `${getApiUrl()}/api/v2`;
+        console.log(this.baseUrl);
     }
 
     //#region Generic

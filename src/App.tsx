@@ -9,6 +9,13 @@ import { I18nProvider } from 'meridian/i18n';
 import { AppRouter } from 'meridian/navigation';
 import { createStore } from 'meridian/state';
 
+/**
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Methods: *
+Access-Control-Allow-Origin: http://localhost:5173
+Access-Control-Allow-Credentials: true
+ */
+
 const App = () => (
     <Provider store={createStore()}>
         <I18nProvider>
